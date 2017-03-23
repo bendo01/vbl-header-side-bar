@@ -35,8 +35,8 @@
 'use strict';
 var $ = require('jquery/dist/jquery.slim');
 require('perfect-scrollbar/jquery')($);
-import SideBarTab from './SideBarTab.vue';
-import SideBarTabs from './SideBarTabs.vue';
+import SideBarTab from 'vbl-side-bar-tab';
+import SideBarTabs from 'vbl-side-bar-tabs';
 export default {
     data () {
         return {
