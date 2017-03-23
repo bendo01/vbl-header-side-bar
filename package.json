@@ -1,0 +1,25 @@
+{
+    "name": "vbl-header-side-bar",
+    "version": "0.0.1",
+    "description": "HeaderSideBar component for vbl",
+    "main": "src/HeaderSideBar.vue",
+    "peerDependencies": {
+        "bulma": ">=0.4",
+        "vue": ">=2",
+        "jquery": ">=3",
+        "perfect-scrollbar": ">=0.6",
+        "vbl-side-bar-tab": ">=0.0",
+        "vbl-side-bar-tabs": ">=0.0"
+    },
+    "repository": "vbl-header-side-bar",
+    "keywords": [
+        "vue",
+        "bulma",
+        "laravel",
+        "vbl",
+        "vbl-component",
+        "vbl-header-side-bar"
+    ],
+    "author": "Benny Leonard Enrico Panggabean <bendo01@gmail.com>",
+    "license": "MIT"
+}
