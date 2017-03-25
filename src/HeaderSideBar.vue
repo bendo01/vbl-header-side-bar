@@ -12,18 +12,7 @@
                 </a>
             </div>
         </nav>
-        <aside class="background-is-black-transparent side-navigation right" id="side-navigation" v-show="isActive">
-            <div class="tabs is-centered margin-bottom-none background-is-black-transparent">
-                <ul>
-                    <li class="is-active">
-                        <a class="trigger-tab color-is-purple" id="trigger-tab-menu"><i class="fa fa-fw fa-map-signs" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a class="trigger-tab color-is-turquoise" id="trigger-tab-chatbot"><i class="fa fa-fw fa-microphone" aria-hidden="true"></i></a>
-                    </li>
-                </ul>
-                <a class="close-side-bar-button color-is-danger" id="menu-close"><i class="fa fa-fw fa-close" aria-hidden="true" v-on:click="toogleSideBarMenu"></i></a>
-            </div>
+        <aside class="background-is-black-transparent side-navigation right" id="side-navigation" v-show="isActive">            
             <side-bar-tabs @toogleSideBarMenu="toogleSideBarMenu">
                 <slot name="menu-list"></slot>
             </side-bar-tabs>
