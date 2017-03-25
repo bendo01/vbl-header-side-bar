@@ -1,15 +1,16 @@
 {
     "name": "vbl-header-side-bar",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "HeaderSideBar component for vbl",
     "main": "src/HeaderSideBar.vue",
-    "peerDependencies": {
+    "dependencies": {
         "bulma": ">=0.4",
         "vue": ">=2",
         "jquery": ">=3",
         "perfect-scrollbar": ">=0.6",
         "vbl-side-bar-tab": ">=0.0",
-        "vbl-side-bar-tabs": ">=0.0"
+        "vbl-side-bar-tabs": ">=0.0",
+        "laravel-mix": ">=0.9"
     },
     "repository": "vbl-header-side-bar",
     "keywords": [
